@@ -75,7 +75,8 @@ public class GetStockInfo extends HttpServlet{
 			   .append(",now:").append(snys.getNow())
 			   .append("}]");*/
 		//采用对象的方式回传两个股票对象
-		builder.append("{")
+		//如果回传表示对象的json，需要在最外层加上括号
+		builder.append("({")
 			   .append("\"").append(szzs.getId()).append("\":{name:\"").append(szzs.getName())
 			   .append("\",ye:").append(szzs.getYestoday()).append(",to:").append(szzs.getToday())
 			   .append(",now:").append(szzs.getNow())
@@ -83,7 +84,7 @@ public class GetStockInfo extends HttpServlet{
 			   .append("\"").append(snys.getId()).append("\":{name:\"").append(snys.getName())
 		       .append("\",ye:").append(snys.getYestoday()).append(",to:").append(snys.getToday())
 		       .append(",now:").append(snys.getNow())
-		       .append("}}");
+		       .append("}})");
 		out.print(builder);
 		
 	}
