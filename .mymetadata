@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="JqueryTrain"
+  id="myeclipse.1418646488219"
+  context-root="/JqueryTrain"
+  j2ee-spec="5.0"
+  archive="JqueryTrain.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
