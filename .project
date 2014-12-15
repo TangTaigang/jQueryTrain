@@ -30,6 +30,7 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+<<<<<<< HEAD
 		<buildCommand>
 			<name>com.genuitec.eclipse.ast.deploy.core.DeploymentBuilder</name>
 			<arguments>
@@ -38,6 +39,10 @@
 	</buildSpec>
 	<natures>
 		<nature>com.genuitec.eclipse.ast.deploy.core.deploymentnature</nature>
+=======
+	</buildSpec>
+	<natures>
+>>>>>>> refs/heads/master
 		<nature>com.genuitec.eclipse.j2eedt.core.webnature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
